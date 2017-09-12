@@ -560,7 +560,26 @@ fieldset[disabled] .btn-primary:hover {
         width: 100%;
        }
 
+#got {
+    border-radius: 15px;
+    font-size: 40px;
+}
+
 #bottomsectionheading {
 	color: #E4B745;	
 	font-weight: bold;
+}
+
+#parkingicon {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    font-size: 100px;
+}
+
+.header-masthead-inverted {
+    color: antiquewhite;
+    background-color: #E4B745;
+    border-radius: 25px;
+    font-style: italic;
+    font-size: 35px;
 }

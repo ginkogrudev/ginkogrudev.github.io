@@ -554,3 +554,13 @@ fieldset[disabled] .btn-primary:hover {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 25px;
 }
+
+ #map {
+        height: 400px;
+        width: 100%;
+       }
+
+#bottomsectionheading {
+	color: #E4B745;	
+	font-weight: bold;
+}

@@ -573,7 +573,7 @@ fieldset[disabled] .btn-primary:hover {
 #parkingicon {
     background-color: whitesmoke;
     border-radius: 15px;
-    font-size: 100px;
+    font-size: 70px;
 }
 
 .header-masthead-inverted {
@@ -582,4 +582,14 @@ fieldset[disabled] .btn-primary:hover {
     border-radius: 25px;
     font-style: italic;
     font-size: 35px;
+}
+
+#swimIcon {
+    color: azure;
+    font-size: 70px;
+}
+
+#saunaIcon {
+    background-color: white;
+    border-radius: 10px;
 }

@@ -284,14 +284,34 @@
                     <h2 class="section-heading text-white">При заетост на къщата 3,5,7 и повече дни цената търпи промяна.</h2>
                     <hr class="light">
                 </div>
-                <ul class="col-lg-6 mx-auto text-center list-group">
-                    <li class="list-group-item active">Цената включва</li>
-                    <li class="list-group-item list-group-item-dark">Нощувка</li>
-                    <li class="list-group-item">Ползване на сауна (във фиксирани часове)</li>
-                    <li class="list-group-item">Ползване на басейн с джакузи</li>
-                    <li class="list-group-item">Паркинг</li>
-                    <li class="list-group-item">Wi-Fi</li>
-                </ul>
+                 <div class="col-lg-12 mx-auto text-center">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePrices" aria-expanded="false" aria-controls="collapseExample">Какво включва цената?
+                  </button>
+                </div>
+                <hr class="primary">
+                <div class="collapse" id="collapsePrices">
+                    <div class="row">
+                        <div class="col-lg-3 mx-auto text-center">
+                           <i class="fa fa-4x fa-moon-o text-white sr-icons"></i>  
+                            <h1 class="header-masthead-inverted header-content">Нощувка</h1>
+                        </div>
+                         <div class="col-lg-6 mx-auto text-center">
+                           <!-- Sauna icon by Icons8 -->
+<img class="icon icons8-Sauna" id="saunaIcon" width="70" height="70" src="data:image/png;base64,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">
+                            <h1 class="header-masthead-inverted header-content">Ползване на сауна (във фиксирани часове)</h1>
+                        </div>
+                    </div>
+                        <div class="row">
+                         <div class="col-lg-3 mx-auto text-center">
+                           <i class="material-icons" id="parkingicon">local_parking</i> 
+                            <h1 class="header-masthead-inverted header-content">Паркинг</h1>
+                        </div> 
+                         <div class="col-lg-6 mx-auto text-center">
+                             <i class="material-icons" id="swimIcon">pool</i>
+                            <h1 class="header-masthead-inverted header-content">Ползване на басейн с джакузи</h1>
+                        </div>           
+                    </div>
+                </div>
             </div>
         </div>
     </section>
